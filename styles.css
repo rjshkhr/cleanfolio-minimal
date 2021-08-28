@@ -351,6 +351,7 @@ main {
 }
 
 .scroll-top {
+  display: none;
   position: fixed;
   bottom: 1em;
   right: 2em;
