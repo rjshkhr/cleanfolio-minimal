@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -94,7 +94,7 @@ button {
 }
 
 .link::before {
-  content: '';
+  content: "";
   display: inline;
   width: 0%;
   height: 0.2em;
@@ -142,7 +142,7 @@ button {
 }
 
 .btn--outline:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--clr-primary);
   right: 100%;
@@ -266,6 +266,10 @@ main {
   margin-left: 0.5em;
 }
 
+.contact {
+  flex-direction: column;
+}
+
 .footer {
   padding: 3em 0;
   margin-top: 4em;
@@ -274,7 +278,7 @@ main {
 
 .footer__link {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--clr-fg);
 }
 
