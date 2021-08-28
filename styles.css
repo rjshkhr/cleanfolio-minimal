@@ -182,6 +182,7 @@ button {
 .btn--icon:active {
   transform: translateY(-5px);
 }
+
 .center {
   display: flex;
   align-items: center;
@@ -264,6 +265,19 @@ main {
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.skills__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list-item {
+  margin: 0.5em;
 }
 
 .contact {
