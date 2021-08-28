@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Raj Shekhar</title>
   </head>
-  <body class="light">
+  <body class="light" id="top">
     <header class="header center">
       <h3>
         <a href="https://rajshekhar26.github.io/cleanfolio-minimal" class="link"
@@ -26,12 +26,12 @@
       </h3>
 
       <nav class="nav center">
-        <ul class="nav__list">
+        <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="projects">Projects</a>
+            <a class="link link--nav" href="#projects">Projects</a>
           </li>
           <li class="nav__list-item">
-            <a class="link link--nav" href="skills">Skills</a>
+            <a class="link link--nav" href="#skills">Skills</a>
           </li>
           <li class="nav__list-item">
             <a class="link link--nav" href="#contact">Contact</a>
@@ -39,20 +39,55 @@
         </ul>
 
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i id="btn-theme" class="fas fa-moon"></i>
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
         </button>
+
         <button
           type="button"
           aria-label="toggle navigation"
           class="btn btn--icon nav__hamburger"
         >
-          <i class="fas fa-bars"></i>
+          <i aria-hidden="true" class="fas fa-bars"></i>
         </button>
       </nav>
     </header>
 
     <main>
       <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
+        <h2 class="about__role">A Front end Developer.</h2>
+        <p class="about__desc">
+          Consectetur neque sed quam molestiae consectetur nesciunt sit alias
+          Vitae libero perferendis reprehenderit optio veritatis Accusantium at
+          voluptatum cumque temporibus et Explicabo iste porro quis numquam
+          distinctio Repellendus adipisci nam perferendis amet eaque hic
+          Voluptates
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <div class="btn btn--outline">Resume</div>
+          </a>
+
+          <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/rajshekhar26"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
       <!-- Projects -->
       <section id="projects" class="section projects">
         <h2 class="section__title">Projects</h2>
@@ -76,14 +111,14 @@
               aria-label="source code"
               class="link link--icon"
             >
-              <i class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github"></i>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://example.com"
               aria-label="live preview"
               class="link link--icon"
             >
-              <i class="fab fa-linkedin"></i>
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
           </div>
 
@@ -105,14 +140,14 @@
               aria-label="source code"
               class="link link--icon"
             >
-              <i class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github"></i>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://example.com"
               aria-label="live preview"
               class="link link--icon"
             >
-              <i class="fab fa-linkedin"></i>
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
           </div>
 
@@ -134,14 +169,14 @@
               aria-label="source code"
               class="link link--icon"
             >
-              <i class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-github"></i>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://example.com"
               aria-label="live preview"
               class="link link--icon"
             >
-              <i class="fab fa-linkedin"></i>
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
@@ -183,6 +218,13 @@
         Created By Raj Shekhar
       </a>
     </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
