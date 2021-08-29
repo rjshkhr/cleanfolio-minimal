@@ -140,6 +140,7 @@ button {
 }
 
 .btn {
+  display: block;
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
