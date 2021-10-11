@@ -247,6 +247,7 @@ main {
 
 .nav__hamburger {
   display: none;
+  width: 1em;
 }
 
 .about {
@@ -404,5 +405,9 @@ main {
   .footer {
     padding: 2em;
     margin-top: 3em;
+  }
+
+  .scroll-container {
+    display: none;
   }
 }
