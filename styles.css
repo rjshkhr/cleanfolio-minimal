@@ -281,7 +281,7 @@ main {
   margin-right: 1em;
 }
 
-.projects__grid {
+.certifications__grid {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
@@ -289,7 +289,7 @@ main {
   grid-gap: 2em;
 }
 
-.project {
+.certifications {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
@@ -297,29 +297,29 @@ main {
   transition: transform 0.2s linear;
 }
 
-.project:hover {
+.certifications:hover {
   transform: translateY(-7px);
 }
 
-.project__description {
+.certifications__description {
   margin-top: 1em;
 }
 
-.project__stack {
+.certifications__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.certifications__stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
+.certifications .link--icon {
   margin-left: 0.5em;
 }
 
