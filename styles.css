@@ -98,6 +98,7 @@ button {
   }
 
   .experiences__grid {
+    max-width: 900px;
     margin: 0 auto; 
     display: grid; 
     grid-template-columns: 1fr; 
@@ -508,6 +509,7 @@ main {
   }
   
   .experiences__grid {
+    max-width: 600px;
     margin: 0 auto; 
     display: grid; 
     grid-template-columns: 1fr; 
@@ -515,6 +517,7 @@ main {
   }    
 
   .certifications__grid {
+    max-width: 600px;
     margin: 0 auto; 
     display: grid; 
     grid-template-columns: 1fr; 
@@ -522,6 +525,7 @@ main {
   }
   
   .projects__grid {
+    max-width: 600px;
     margin: 0 auto; 
     display: grid; 
     grid-template-columns: 1fr; 
