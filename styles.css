@@ -96,6 +96,27 @@ button {
   h1 {
     font-size: 2.6rem;
   }
+
+  .experiences__grid {
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
+  }    
+
+  .certifications__grid {
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
+  }
+  
+  .projects__grid {
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
+  }  
 }
 
 /*===================
