@@ -485,16 +485,16 @@ main {
     align-items: flex-start;
     margin-top: 2em;
   }
-
-  .projects__grid {
-    grid-template-columns: 1fr;
-  }  
   
   .experiences__grid {
     grid-template-columns: 1fr;
   }    
 
   .certifications__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .projects__grid {
     grid-template-columns: 1fr;
   }  
   
