@@ -96,28 +96,6 @@ button {
   h1 {
     font-size: 2.6rem;
   }
-
-  .experiences__grid {
-    max-width: 900px;
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }    
-
-  .certifications__grid {
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }
-  
-  .projects__grid {
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }  
 }
 
 /*===================
@@ -307,7 +285,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
 
@@ -349,7 +327,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
 
@@ -391,7 +369,7 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
 
@@ -507,30 +485,6 @@ main {
     align-items: flex-start;
     margin-top: 2em;
   }
-  
-  .experiences__grid {
-    max-width: 600px;
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }    
-
-  .certifications__grid {
-    max-width: 600px;
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }
-  
-  .projects__grid {
-    max-width: 600px;
-    margin: 0 auto; 
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-gap: 2em;
-  }  
   
   .footer {
     padding: 2em;
