@@ -487,15 +487,24 @@ main {
   }
   
   .experiences__grid {
-    grid-template-columns: 1fr;
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
   }    
 
   .certifications__grid {
-    grid-template-columns: 1fr;
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
   }
   
   .projects__grid {
-    grid-template-columns: 1fr;
+    margin: 0 auto; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 2em;
   }  
   
   .footer {
