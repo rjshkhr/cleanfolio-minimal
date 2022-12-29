@@ -490,6 +490,14 @@ main {
     grid-template-columns: 1fr;
   }  
   
+  .experiences__grid {
+    grid-template-columns: 1fr;
+  }    
+
+  .certifications__grid {
+    grid-template-columns: 1fr;
+  }  
+  
   .footer {
     padding: 2em;
     margin-top: 3em;
