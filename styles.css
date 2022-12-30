@@ -92,6 +92,12 @@ button {
   cursor: pointer;
 }
 
+@media (min-width: 1024px) {
+  .projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 2.6rem;
