@@ -431,7 +431,7 @@ main {
 
 .contact__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: auto;
 }
 
 .footer {
