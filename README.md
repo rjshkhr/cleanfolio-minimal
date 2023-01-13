@@ -2,7 +2,7 @@
 
 A clean and simple portfolio template built with plain HTML, CSS and JavaScript.
 
-![leivadaros info-thumbnail](https://user-images.githubusercontent.com/16403754/212373710-a66e129e-f1c0-4ebf-a306-91224d8abd79.png)
+![leivadaros info-thumbnail](https://user-images.githubusercontent.com/16403754/212373942-547ecb38-2d60-4035-bd23-51a4e3d66684.png)
 
 ## License
 
