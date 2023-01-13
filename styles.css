@@ -373,6 +373,11 @@ main {
   grid-gap: 2em;
 }
 
+.projects__desc {
+  font-size: 1rem;
+  max-width: auto;
+}
+
 .project {
   padding: 2em;
   margin: 0 auto;
