@@ -497,7 +497,7 @@ main {
   }
 
   .experiences__grid {
-    max-width: 1100px;
+    max-width: auto;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
@@ -505,7 +505,7 @@ main {
   }
 
   .projects__grid {
-    max-width: 1100px;
+    max-width: auto;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
