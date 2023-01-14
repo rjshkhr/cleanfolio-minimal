@@ -63,17 +63,17 @@ const scrollUp = () => {
 document.addEventListener('scroll', scrollUp)
 
 let count = Math.floor(localStorage.getItem("count")) || 884000;
-let number = document.getElementById("number");
-number.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
-number.style.color = "red";
+let totalviewcount = document.getElementById("totalviewcount");
+totalviewcount.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
+totalviewcount.style.color = "red";
 
 function incrementCounter() {
     count++;
     localStorage.setItem("count", count);
-    number.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
-    number.classList.add("updated");
+    totalviewcount.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
+    totalviewcount.classList.add("updated");
     setTimeout(() => {
-        number.classList.remove("updated");
+        totalviewcount.classList.remove("updated");
     }, 1000);
 }
 
