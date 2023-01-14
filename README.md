@@ -1,9 +1,8 @@
 # leivadaros.dev
-
 A clean and simple portfolio template built with plain HTML, CSS and JavaScript
 
-![leivadaros info-thumbnail](https://user-images.githubusercontent.com/16403754/212373942-547ecb38-2d60-4035-bd23-51a4e3d66684.png)
+![leivadaros info](https://user-images.githubusercontent.com/16403754/212470412-ba7a6dd3-0035-4e87-b3aa-6193b59ce912.png)
 
+![leivadaros info-dark](https://user-images.githubusercontent.com/16403754/212470413-c13cb97e-c379-481b-bf5f-c5116af808ff.png)
 ## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
