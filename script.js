@@ -62,7 +62,7 @@ const scrollUp = () => {
 
 document.addEventListener('scroll', scrollUp)
 
-let count = Math.floor(localStorage.getItem("count")) || 884000;
+let count = Math.floor(localStorage.getItem("count")) || 884251;
 let totalviewcount = document.getElementById("totalviewcount");
 totalviewcount.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
 totalviewcount.style.color = "red";
