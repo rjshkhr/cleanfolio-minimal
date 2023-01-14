@@ -413,7 +413,7 @@ main {
 }
 
 .skills__list {
-  max-width: 450px;
+  max-width: auto;
   width: 95%;
   margin: 0 auto;
   display: flex;
