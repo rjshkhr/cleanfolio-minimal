@@ -336,11 +336,17 @@ main {
 }
 
 .certifications__grid {
-  max-width: auto;
+  max-width: 1100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.certifications__grid > * {
+  flex: 1 0 18em;
+  max-width: 18em;
+  margin: 2em;
 }
 
 .certifications {
@@ -378,11 +384,17 @@ main {
 }
 
 .projects__grid {
-  max-width: auto;
+  max-width: 1100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(18em, 1fr));
-  grid-gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects__grid > * {
+  flex: 1 0 18em;
+  max-width: 18em;
+  margin: 2em;
 }
 
 .projects__desc {
@@ -506,22 +518,6 @@ main {
   .about {
     align-items: flex-start;
     margin-top: 2em;
-  }
-
-  .experiences__grid {
-    max-width: auto;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    grid-gap: 2em;
-  }
-
-  .projects__grid {
-    max-width: auto;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    grid-gap: 2em;
   }
   
   .footer {
