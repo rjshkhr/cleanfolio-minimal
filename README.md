@@ -9,4 +9,4 @@ A clean and simple portfolio template built with plain HTML, CSS & JavaScript wi
 You are welcome to fork and use this repo as you wish for your personal website, however, it would be appreciated if you give credit by including a link back to my website at [leivadaros.info](http://leivadaros.info/). Additionally, if you could also leave a 🌟, it would be greatly appreciated. Thank you!
 
 ## Copyright & License
-[MIT](https://github.com/paraskevasleivadaros/cleanfolio-minimal/blob/main/LICENSE)
+[MIT](https://github.com/paraskevasleivadaros/leivadaros.dev/blob/main/LICENSE)
