@@ -61,20 +61,3 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
-
-let count = Math.floor(localStorage.getItem("count")) || 888251;
-let totalviewcount = document.getElementById("totalviewcount");
-totalviewcount.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
-totalviewcount.style.color = "red";
-
-function incrementCounter() {
-    count++;
-    localStorage.setItem("count", count);
-    totalviewcount.innerHTML = count.toLocaleString("en-US", {useGrouping: true, minimumFractionDigits: 0});
-    totalviewcount.classList.add("updated");
-    setTimeout(() => {
-        totalviewcount.classList.remove("updated");
-    }, 1000);
-}
-
-setInterval(incrementCounter, 30000); // increment every 30 seconds
