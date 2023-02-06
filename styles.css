@@ -111,19 +111,6 @@ button {
 }
 
 /*===================
-  animations for totalviewcount
-===================*/
-
-#totalviewcount {
-  transition: all 0.5s ease;
-  transform: scale(1);
-}
-
-#totalviewcount.updated {
-  transform: scale(1.2);
-}
-
-/*===================
   buttons and links
 ===================*/
 
