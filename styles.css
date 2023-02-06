@@ -238,6 +238,10 @@ main {
     margin-top: 4em
 }
 
+.section_experience {
+    margin-top: 0em
+}
+
 .section__title {
     text-align: center;
     margin-bottom: 1em;
