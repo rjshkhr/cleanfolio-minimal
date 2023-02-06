@@ -511,7 +511,7 @@ main {
         grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
         grid-gap: 2em
     }
-  
+
     .projects__grid {
         max-width: auto;
         margin: 0 auto;
