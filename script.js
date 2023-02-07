@@ -3,20 +3,24 @@ const body = document.body
 const btnTheme = document.querySelector('.fa-moon')
 const btnHamburger = document.querySelector('.fa-bars')
 
+const themePreference = window.matchMedia('(prefers-color-scheme: dark)').matches || window.matchMedia('(prefers-color-scheme: no-preference)').matches && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const btnClassPreference = themePreference === true ? 'fa-sun' : 'fa-moon';
+
 const addThemeClass = (bodyClass, btnClass) => {
   body.classList.add(bodyClass)
   btnTheme.classList.add(btnClass)
 }
 
-const getBodyTheme = localStorage.getItem('portfolio-theme')
-const getBtnTheme = localStorage.getItem('portfolio-btn-theme')
+const theme = themePreference ? 'dark' : 'light';
 
-addThemeClass(getBodyTheme, getBtnTheme)
+addThemeClass(theme, btnClassPreference);
+
+localStorage.setItem('portfolio-theme', theme);
+localStorage.setItem('portfolio-btn-theme', btnClassPreference);
 
 const isDark = () => body.classList.contains('dark')
 
 const setTheme = (bodyClass, btnClass) => {
-
 	body.classList.remove(localStorage.getItem('portfolio-theme'))
 	btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'))
 
