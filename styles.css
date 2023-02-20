@@ -491,7 +491,7 @@ main {
     }
 
     .display-nav-list {
-        width: auto
+        width: 100%
     }
 
     .nav__list-item {
