@@ -302,6 +302,9 @@ main {
   transition: transform .2s ease-in-out
 }
 @media(max-width:1000px) {
+  h1 {
+    font-size: 2.6rem
+  }
   .header {
     height: 6em
   }
