@@ -335,48 +335,6 @@ main {
     margin-left: .5em
 }
 
-.certifications__grid {
-    max-width: auto;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    grid-gap: 2em
-}
-
-.certifications {
-    padding: 2em;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: var(--shadow);
-    transition: transform .2s linear
-}
-
-.certifications:hover {
-    transform: translateY(-7px)
-}
-
-.certifications__description {
-    margin-top: 1em
-}
-
-.certifications__stack {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1.2em 0
-}
-
-.certifications__stack-item {
-    margin: .5em;
-    font-weight: 500;
-    font-size: .8rem;
-    color: var(--clr-fg-alt)
-}
-
-.certifications .link--icon {
-    margin-left: .5em
-}
-
 .projects__grid {
     max-width: auto;
     margin: 0 auto;
