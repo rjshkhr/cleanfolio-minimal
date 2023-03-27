@@ -301,7 +301,7 @@ main {
   font-size: 1.8rem;
   transition: transform .2s ease-in-out
 }
-@media(max-width:1000px) {
+@media(max-width:1020px) {
   h1 {
     font-size: 2.6rem
   }
