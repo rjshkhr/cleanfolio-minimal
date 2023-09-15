@@ -248,7 +248,8 @@ main {
 }
 .project__description {
   margin-top: 1em;
-  text-align: center
+  text-align: center;
+  justify-content: center
 }
 .project__stack {
   display: flex;
