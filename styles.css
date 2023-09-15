@@ -247,7 +247,8 @@ main {
   transform: translateY(-7px)
 }
 .project__description {
-  margin-top: 1em
+  margin-top: 1em;
+  text-align: center
 }
 .project__stack {
   display: flex;
