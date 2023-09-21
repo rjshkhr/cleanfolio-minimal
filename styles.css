@@ -213,7 +213,9 @@ main {
 }
 .about__desc {
   font-size: 1rem;
-  max-width: auto
+  max-width: auto;
+  text-align: center;
+  justify-content: center
 }
 .about__contact,
 .about__desc {
