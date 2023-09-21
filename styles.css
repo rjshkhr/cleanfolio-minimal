@@ -236,7 +236,9 @@ main {
 }
 .projects__desc {
   font-size: 1rem;
-  max-width: auto
+  max-width: auto;
+  text-align: center;
+  justify-content: center
 }
 .project {
   padding: 2em;
@@ -284,7 +286,9 @@ main {
 }
 .contact__desc {
   font-size: 1rem;
-  max-width: auto
+  max-width: auto;
+  text-align: center;
+  justify-content: center
 }
 .footer {
   padding: 3em 0;
