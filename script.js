@@ -80,5 +80,7 @@ function sendEmail() {
     window.location.href = "mailto:" + email;
 }
 
-// Add click event listener to the email icon
-document.getElementById("email-icon").addEventListener("click", sendEmail);
+// Wait for the DOM to load before attaching the event listener
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById("email-icon").addEventListener("click", sendEmail);
+});
