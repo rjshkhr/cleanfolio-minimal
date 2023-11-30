@@ -66,17 +66,19 @@ const scrollUp = () => {
 
 document.addEventListener('scroll', scrollUp)
 
-// Splitting the email into parts
-var user = "paraskevasleivadaros";
-var domain = "gmail";
-var tld = "com";
+// Function to handle email icon click
+function sendEmail() {
+    // Email parts
+    var user = "paraskevasleivadaros";
+    var domain = "gmail";
+    var tld = "com";
 
-// Assembling the email address
-var email = user + "@" + domain + "." + tld;
+    // Assemble the email address
+    var email = user + "@" + domain + "." + tld;
 
-// Creating a mailto link
-var mailtoLink = "mailto:" + email;
+    // Open the default mail client
+    window.location.href = "mailto:" + email;
+}
 
-// Inserting the mailto link into the webpage
-var emailElement = document.getElementById("email-placeholder");
-emailElement.innerHTML = '<a href="' + mailtoLink + '">' + email + '</a>';
+// Add click event listener to the email icon
+document.getElementById("email-icon").addEventListener("click", sendEmail);
