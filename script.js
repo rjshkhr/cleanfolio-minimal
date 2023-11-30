@@ -65,3 +65,18 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+
+// Splitting the email into parts
+var user = "paraskevasleivadaros";
+var domain = "gmail";
+var tld = "com";
+
+// Assembling the email address
+var email = user + "@" + domain + "." + tld;
+
+// Creating a mailto link
+var mailtoLink = "mailto:" + email;
+
+// Inserting the mailto link into the webpage
+var emailElement = document.getElementById("email-placeholder");
+emailElement.innerHTML = '<a href="' + mailtoLink + '">' + email + '</a>';
