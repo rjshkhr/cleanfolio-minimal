@@ -10,6 +10,7 @@ You are welcome to fork and use this repo as you wish for your personal website,
 [![HTML](https://skills.thijs.gg/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://skills.thijs.gg/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://skills.thijs.gg/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Actions](https://skills.thijs.gg/icons?i=githubactions)](https://github.com/features/actions)
 
 ## ©️ Copyright & License
 [MIT](https://github.com/paraskevasleivadaros/leivadaros.dev/blob/main/LICENSE)
