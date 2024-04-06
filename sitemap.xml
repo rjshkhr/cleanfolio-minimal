@@ -4,8 +4,19 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>https://leivadaros.dev</loc>
-  <lastmod>2022-10-21T07:18:32+00:00</lastmod>
+  <loc>https://leivadaros.dev/</loc>
+  <lastmod>2024-03-26T10:16:12+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://leivadaros.dev/paraskevas-leivadaros-resume.pdf</loc>
+  <lastmod>2024-03-26T10:16:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
